@@ -1,4 +1,4 @@
-# Degen Gaming Token (DEGEN) README
+# Degen Gaming Token  (DEGEN) README
 
 ## Introduction
 
@@ -80,11 +80,11 @@ GEN tokens.
 
 ## Authors
 
-RIDAM ADITYA SINHA
+Dheeraj Kaushik
 
-https://www.linkedin.com/in/ridam-sinha-188133210/
 
-ridamsinha20@gmail.com
+
+dkher4@gmail.com
 
 ## License
 
