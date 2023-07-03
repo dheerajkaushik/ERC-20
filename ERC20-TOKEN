@@ -24,7 +24,7 @@ contract DegenToken {
 
     constructor() {
         name = "Degen Gaming Token";
-        symbol = "DEGEN";
+        symbol = "DGN";
         decimals = 18;
         totalSupply = 0;
         owner = msg.sender;
