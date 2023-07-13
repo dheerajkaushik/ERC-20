@@ -4,8 +4,6 @@
 
 Welcome to the Degen Gaming Token (DEGEN) repository! This repository contains the Solidity smart contract code for the DEGEN token, an ERC-20 compatible token designed for gaming purposes on the Avalanche Fuji Test Network. DEGEN tokens can be used for various in-game activities, rewards, and transactions within the gaming ecosystem.
 
-This README file provides an overview of the DEGEN token contract and includes instructions on how to deploy the contract to the Avalanche Fuji Test Network using Remix Injector and how to interact with it using Remix.
-
 ## Contract Details
 
 The `DegenToken.sol` file contains the source code for the DEGEN token contract. Here are the key details of the contract:
@@ -19,7 +17,7 @@ The contract includes standard ERC-20 functions such as `balanceOf`, `transfer`,
 
 The contract owner has special privileges and is the only address allowed to mint new tokens. Other addresses can interact with the contract by transferring tokens, approving token transfers on their behalf, and burning their own tokens.
 
-## Deployment on Avalanche Fuji Test Network using Remix Injector
+## Deployment on Avalanche Fuji Test Network:-
 
 To deploy the DEGEN token contract to the Avalanche Fuji Test Network using Remix Injector, follow these steps:
 
@@ -31,7 +29,7 @@ To deploy the DEGEN token contract to the Avalanche Fuji Test Network using Remi
 
 4. Compile the contract by clicking the "Compile" button.
 
-5. Switch to the "Deploy & Run Transactions" tab.
+5. Switch to the "Deploy" tab.
 
 6. In the "Environment" dropdown, select "Injected Web3" to connect Remix to your MetaMask wallet.
 
@@ -82,13 +80,9 @@ GEN tokens.
 
 Dheeraj Kaushik
 
-
-
 dkher4@gmail.com
 
-## License
 
-The Degen Gaming Token contract is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for more information.
 
 ## Disclaimer
 
