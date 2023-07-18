@@ -2,18 +2,23 @@
 
 ## Introduction
 
-Welcome to the Degen Gaming Token (DEGEN) repository! This repository contains the Solidity smart contract code for the DEGEN token, an ERC-20 compatible token designed for gaming purposes on the Avalanche Fuji Test Network. DEGEN tokens can be used for various in-game activities, rewards, and transactions within the gaming ecosystem.
+This repository contains the Solidity smart contract code for the DEGEN token, an ERC-20 token designed for gaming purposes. DEGEN tokens can be used for various in-game activities.
 
 ## Contract Details
 
 The `DegenToken.sol` file contains the source code for the DEGEN token contract. Here are the key details of the contract:
 
-- Token Name: Degen Gaming Token
-- Token Symbol: DEGEN
-- Decimals: 18
-- Total Supply: 0 (initially)
+- Token Name: Degen
+- Token Symbol: DGN
 
-The contract includes standard ERC-20 functions such as `balanceOf`, `transfer`, `approve`, and `transferFrom`. It also includes additional functionalities for minting and burning tokens.
+# Functionality:
+-Minting new tokens: The platform should be able to create new tokens and distribute them to players as rewards. Only the owner can mint tokens.
+-Transferring tokens: Players should be able to transfer their tokens to others.
+-Redeeming tokens: Players should be able to redeem their tokens for items in the in-game store.
+-Checking token balance: Players should be able to check their token balance at any time.
+-Burning tokens: Anyone should be able to burn tokens, that they own, that are no longer needed.
+-updatename: update the name of token.
+-updatesymbol: updatee the symbol of token.
 
 The contract owner has special privileges and is the only address allowed to mint new tokens. Other addresses can interact with the contract by transferring tokens, approving token transfers on their behalf, and burning their own tokens.
 
@@ -41,34 +46,14 @@ To deploy the DEGEN token contract to the Avalanche Fuji Test Network using Remi
 
 10. Wait for the deployment transaction to be confirmed on the Avalanche network.
 
-11. Once the contract is deployed, you will see the contract address in the Remix console. Make note of this address for future interactions.
+11. Once the contract is deployed.
 
-## Interacting with the Contract using Remix
-
-After deploying the DEGEN token contract to the Avalanche Fuji Test Network, you can interact with the contract using Remix. Here are the steps to get started:
-
-1. Open the [Remix](https://remix.ethereum.org/) online IDE in your browser.
-
-2. In the "File Explorer" section, locate the `DegenToken.sol` file and open it.
-
-3. In the "Deployed Contracts" section, click on the contract named `DegenToken`.
-
-4. In the "At Address" input field, enter the contract address obtained during deployment.
-
-5. Click the "At Address" button to load the contract instance.
-
-6. You can now interact with the DEGEN token contract through the provided functions.
 
    - Use the `balanceOf` function to check the token balance of a specific address.
    - Use the `transfer` function to send DEGEN tokens from your address to another address.
-   - Use the `approve` function to allow another address to spend a specific amount of DEGEN tokens on your behalf.
-   - Use the `transferFrom` function to transfer DEGEN tokens on behalf of another address.
-   - Use the `mint` function (accessible only to the contract owner) to mint new DE
-
-GEN tokens.
+   - Use the `mint` function (accessible only to the contract owner).
    - Use the `burn` function to burn a specific amount of your DEGEN tokens.
-
-7. Set the required parameters for each function and click the corresponding button to execute the transaction.
+   - -Use the `reedem` function to reedem in game token.
 
 8. Confirm the transaction details and sign the transaction in MetaMask.
 
