@@ -53,7 +53,7 @@ To deploy the DEGEN token contract to the Avalanche Fuji Test Network using Remi
    - Use the `transfer` function to send DEGEN tokens from your address to another address.
    - Use the `mint` function (accessible only to the contract owner).
    - Use the `burn` function to burn a specific amount of your DEGEN tokens.
-   - -Use the `reedem` function to reedem in game token.
+   - -Use the `reedem` function to reedem in game token with prize selection.
 
 8. Confirm the transaction details and sign the transaction in MetaMask.
 
